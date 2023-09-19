@@ -14,7 +14,7 @@ public class Exam01 {
 		int[] StuArr = new int[5];
 		int total = 0;
 		double avg = 0;
-		int[] Lotto = new int[6];
+		
 		
 		for(int i =0;i<StuArr.length; i++)  // 입력	
 		 StuArr[i] = (int)(Math.random()*100)+1; 
@@ -70,9 +70,6 @@ public class Exam01 {
 			
 		}
 		
-		
-		
-	 // 로또 45개번호에서 6개의 숫자를 랜덤으로 뽑기
 	
 	
 		}	
