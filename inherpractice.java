@@ -4,6 +4,7 @@ class Car{ //기본 연료 자동차
    int gasolineGauge;
    Car(int gasolineGauge){
 	   this.gasolineGauge = gasolineGauge;
+	   
    }
  
 }
