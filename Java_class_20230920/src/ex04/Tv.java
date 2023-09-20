@@ -6,7 +6,7 @@ public class Tv {
 	boolean power;
 	int channel;  // 맴버변수
 	
-	//생성자의 역할 : 멤버변수 초기화 이용될수 있다.
+	//생성자의 역할 : 멤버변수 초기화에 이용될수 있다.
 	Tv(){   
 		System.out.println("기본생성자");
 		this.channel = 11; 
