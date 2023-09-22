@@ -6,6 +6,7 @@ public class ex01 {
 		
 		Object obj = 10; // Object obj = new Integer(10); -> object는 알아서 객체로 포장을해준다.
 		
+
 		
 		Person p1 = new Person("김용우", 20);
 		Person p2 = new Person("김용우", 20);
