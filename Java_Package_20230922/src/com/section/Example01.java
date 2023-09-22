@@ -4,6 +4,7 @@ public class Example01 {
 
 	public static void main(String[] args) {
 
+		
 		StringBuffer sb = new StringBuffer("Hello ");
 		sb.append("Programing");
 		System.out.println(sb);
