@@ -3,7 +3,6 @@ package ex04;
 public class MainClass {
 	public static void main(String[] args) {
 	
-
 		Student[] students = new Student[3];
 		int total = 0;
 		double average = 0;
