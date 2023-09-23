@@ -11,7 +11,6 @@ public class ExceptionEx01 {
 		System.out.println("예외처리3");
 		System.out.println("예외처리4");
 
-		
 		Scanner sc = new Scanner(System.in);
 		System.out.println(">> 정수입력(0은 입력하지마세요)");
 		
