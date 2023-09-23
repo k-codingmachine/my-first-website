@@ -61,10 +61,7 @@ public class student1 {
 		int avg = (x + y + z)/3;
 		
 		System.out.println("총합 :" + sum );
-		System.out.println("평균 :" + avg );
-			
-		
-		
+		System.out.println("평균 :" + avg );	
 	}
 	
 	
