@@ -2,6 +2,7 @@ package ex001;
 
 public class Tv {
 
+	
 	String color;
 	boolean power;
 	int channel;
