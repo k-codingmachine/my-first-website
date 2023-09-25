@@ -8,6 +8,7 @@ import java.io.InputStream;
 public class ReadExample {
 
 	public static void main(String[] args) {
+
 		
 		try {
 			InputStream is = new FileInputStream("c:/data/test1.db");
