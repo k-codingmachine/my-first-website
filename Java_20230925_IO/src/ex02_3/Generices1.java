@@ -11,6 +11,7 @@ class Orange{
 		return "I am an orange";
 	}
 }
+
 // 제네릭 클래스
 class Box<T extends Number> {  // Number은 정수의 꼭대기
 	private T obj;
