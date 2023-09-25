@@ -18,6 +18,7 @@ class Box{
 	void setObj(Object obj) {
 		this.obj = obj;
 	}
+
 	
 	Object getObj() {
 		return obj;
