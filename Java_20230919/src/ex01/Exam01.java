@@ -6,7 +6,6 @@ public class Exam01 {
 
 	public static void main(String[] args) {
 
-		
 		int result = factorial(5);
 		
 		System.out.println("result : " +result);
