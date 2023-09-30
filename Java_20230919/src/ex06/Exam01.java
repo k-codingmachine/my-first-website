@@ -7,6 +7,7 @@ public class Exam01 {
 
 	public static void main(String[] args) {
 
+		
 		int[]numA = new int[10];
 		int[]numB = new int[10];
 		
