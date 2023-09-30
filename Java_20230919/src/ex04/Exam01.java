@@ -7,7 +7,6 @@ public class Exam01 {
 
 	public static void main(String[] args) {
 
-		
 		//1. 렌덤을 이용해서 5명 학생 점수를 입력받는다.
 		//2. 5명 점수 총점과 평균을 구한다.
 		//3. 최대값, 최소값 출력
