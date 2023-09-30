@@ -4,7 +4,8 @@ package ex03;
 public class Exam01 {
 
 	public static void main(String[] args) {
-	
+
+		
 		int[] myArr = new int[5];
 		String[] myStr = new String[3];
 		
