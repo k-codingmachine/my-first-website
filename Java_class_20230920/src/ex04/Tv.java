@@ -1,8 +1,6 @@
 package ex04;
 
 public class Tv {
-
-	
 	String color;
 	boolean power;
 	int channel;  // 맴버변수
