@@ -10,6 +10,7 @@ public class student1 {
 	static int match = 90;
 	int sum;
 	int avg = sum/3;
+
 	
 	private void name(String n) {
 		this.name = n;
