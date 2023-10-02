@@ -9,6 +9,7 @@ public class MainClass {
 		students[0] = new Student("백승훈", 100, 90, 100, 90);
 		students[1] = new Student("김용우", 10, 30, 50, 40);
 		students[2] = new Student("김영규", 70, 50, 90, 50);
+
 		
 		
 		for(int i=0; i<students.length; i++) {
