@@ -15,7 +15,6 @@ public class Student {
 //		return sum()/3.0;
 	}
 	
-	
 	public Student(String name, int age, int kor, int eng, int match) {
 		this.name = name;
 		this.age = age;
