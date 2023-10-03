@@ -6,6 +6,7 @@ class Box<T>{
 		this.ob = ob;
 	}
 	public T get() {return this.ob;}  // get :4번줄에 값을 꺼내고자함
+	
 } 
 
 class Unboxer{
