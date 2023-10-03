@@ -16,6 +16,7 @@ class Box<T>{
 		}
 		public static void peekBox(Box<?> box) { // 와일드카드
 			System.out.println(box);
+		
 		}
 	}
 
