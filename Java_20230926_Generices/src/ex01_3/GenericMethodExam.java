@@ -16,7 +16,6 @@ class Box<T>{
 class SteelBox<T> extends Box<T>{
 	public SteelBox(T ob) {
 		super (ob);
-		
 	}
 }
 
