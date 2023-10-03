@@ -17,7 +17,6 @@ class Box<T>{
 		}
 	}
 
-
 public class WildCardUnBox {
 
 	public static void main(String[] args) {
