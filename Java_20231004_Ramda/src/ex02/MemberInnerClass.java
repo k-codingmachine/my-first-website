@@ -10,6 +10,7 @@ class Outer4{
 	}
 }
 
+
 class Outer3{ // 안에 맴버를 사용하려면 바깥쪽 객체부터 생성
 	private int num = 0;
 	
