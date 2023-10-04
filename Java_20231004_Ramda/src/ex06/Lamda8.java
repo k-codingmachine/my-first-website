@@ -4,7 +4,9 @@ package ex06;
 interface Ccc{
 	int square(int x);
 }
+
 class Cccc implements Ccc{
+	
 	@Override
 	public int square(int x) {
 		return x*x;
