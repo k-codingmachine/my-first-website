@@ -2,6 +2,7 @@ package ex01;
 
 class Outer{
 	private static int num = 0;
+
 	
 	public Outer() {
 		System.out.println("----------------------------------");
