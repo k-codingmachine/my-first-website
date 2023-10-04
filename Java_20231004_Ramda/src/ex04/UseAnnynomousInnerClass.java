@@ -8,6 +8,7 @@ interface Printable{ // interface는 객체생성 불가
 	void print();
 }
 
+
 class Papers{
 	private String con;
 	
