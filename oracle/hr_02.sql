@@ -1,10 +1,10 @@
 select *
 from employees
-where employee_id >=120 and employee_id <130; // 위문장
+where employee_id >=120 and employee_id <130; // (1)문장
 
 select *
 from employees
-where employee_id BETWEEN 120 and 130; // 위 아래문장 동일
+where employee_id BETWEEN 120 and 130; // (2)문장 (1)(2) 문장동일
 
 select *
 from employees
