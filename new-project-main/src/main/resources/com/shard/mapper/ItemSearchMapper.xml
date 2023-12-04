@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shard.mapper.ItemSearchMapper">
+
+	<select id="getSearchAll" resultType="com.shard.domain.ItemVO">
+		select * from item
+	</select>
+
+	<select id="getHPrice" resultType="com.shard.domain.ItemVO">
+		select * from item order by
+		sale desc
+		limit #{start}, #{amount}
+	</select>
+
+	<select id="getRPrice" resultType="com.shard.domain.ItemVO">
+		select * from item order by
+		sale asc
+		limit #{start}, #{amount}
+	</select>
+
+	<select id="getColor" resultType="com.shard.domain.ItemVO" parameterType="com.shard.domain.PageVO">
+         <![CDATA[
+            SELECT *
+            FROM item
+            WHERE SUBSTRING_INDEX(itemName, ' ', -2) LIKE '%${itemName}%'
+            LIMIT #{start}, #{amount};
+        ]]>
+	</select>
+
+
+	<select id="getCategory" resultType="com.shard.domain.ItemVO" parameterType="com.shard.domain.PageVO">
+    <![CDATA[
+        select *
+        from item
+        where categoryNum = #{categoryNum}
+        order by itemNum desc
+        limit #{start}, #{amount}
+    ]]>
+	</select>
+
+	<select id="getItemSearch" resultType="com.shard.domain.ItemVO" parameterType="com.shard.domain.PageVO">
+    <![CDATA[
+        select *
+        from item
+        where itemName like '%' #{itemName} '%'
+        limit #{start}, #{amount}
+    ]]>
+	</select>
+
+	 <select id="getSearchAllWithPaging" resultType="com.shard.domain.ItemVO">
+        <![CDATA[
+            select *
+            from item
+            order by itemNum desc
+            limit #{start}, #{amount}
+        ]]>
+    </select>
+
+ 	<select id="getTotalCount" resultType="int">
+        <![CDATA[
+            select count(*) from item
+        ]]>
+    </select>
+    
+    	<select id="getItemNameCount" resultType="int">
+        <![CDATA[
+            select count(*) from item
+            where itemName like '%' #{itemName} '%'
+        ]]>
+   		 </select>
+
+
+
+
+</mapper>
